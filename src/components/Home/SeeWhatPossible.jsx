@@ -13,7 +13,7 @@ const SeeWhatPossible = () => {
           description={"Transformations made possible with TwoFit"}
         />
 
-        <div className="flex items-center justify-center gap-2 w-full ">
+        <div className="flex items-center justify-center gap-2 w-full">
           <PossibleCard cardData={possible} />
         </div>
 

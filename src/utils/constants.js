@@ -6,6 +6,7 @@ import DesignCard3 from "../assets/images/Rectangle3.svg"
 import DesignCard4 from "../assets/images/Rectangle4.jpg";
 import possibleCard1 from "../assets/images/Rectangle5.svg"
 import possibleCard2 from "../assets/images/Rectangle6.svg"
+import ProfileImg from "../assets/images/profileImg.png"
 
 export const cardData = [
   {
@@ -114,6 +115,54 @@ export const possible = [
     img: possibleCard1,
     name: "Suhaila",
     program: "Weight Gain Program",
-    about: "",
+    about:
+      "I am pleased to share that my body fat percentage has significantly reduced, and I have experienced a remarkable improvement in my overall lifestyle. The customized diet plan and consistent guidance from the fitness team have contributed greatly to my progress. I have also achieved a noticeable reduction in my weight, which reflects the effectiveness of the program. I sincerely appreciate the team’s continuous support, professionalism, and dedication in helping me achieve these results.",
+  },
+];
+
+export const users = [
+  {
+    name: "member",
+    img: ProfileImg,
+  },
+  {
+    name: "member",
+    img: ProfileImg,
+  },
+  {
+    name: "member",
+    img: ProfileImg,
+  },
+  {
+    name: "member",
+    img: ProfileImg,
+  },
+  {
+    name: "member",
+    img: ProfileImg,
+  },
+  {
+    name: "member",
+    img: ProfileImg,
+  },
+  {
+    name: "member",
+    img: ProfileImg,
+  },
+  {
+    name: "member",
+    img: ProfileImg,
+  },
+  {
+    name: "member",
+    img: ProfileImg,
+  },
+  {
+    name: "member",
+    img: ProfileImg,
+  },
+  {
+    name: "member",
+    img: ProfileImg,
   },
 ];

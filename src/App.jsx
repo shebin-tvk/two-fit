@@ -5,6 +5,7 @@ import OurStory from "./pages/OurStory";
 import Blog from "./pages/Blog";
 import ContactUs from "./pages/ContactUs";
 import Header from "./components/shared/Header";
+import Footer from "./components/shared/Footer";
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
             <Route path="/contact" element={<ContactUs />} />
           </Routes>
         </main>
+        <footer>
+          <Footer/>
+        </footer>
       </div>
     </>
   );

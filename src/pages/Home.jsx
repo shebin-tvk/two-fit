@@ -3,6 +3,8 @@ import Video from '../components/Home/Video'
 import Programs from '../components/Home/programs'
 import DesignedForYou from '../components/Home/DesignedForYou'
 import SeeWhatPossible from '../components/Home/SeeWhatPossible'
+import Faq from '../components/shared/Faq'
+import JoinTheMovement from '../components/Home/JointheMovement'
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
     <Programs/>
     <DesignedForYou/>
     <SeeWhatPossible/>
+    <Faq/>
+    <JoinTheMovement/>
    </div>
 
   )
