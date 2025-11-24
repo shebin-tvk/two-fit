@@ -7,6 +7,14 @@ import DesignCard4 from "../assets/images/Rectangle4.jpg";
 import possibleCard1 from "../assets/images/Rectangle5.svg"
 import possibleCard2 from "../assets/images/Rectangle6.svg"
 import ProfileImg from "../assets/images/profileImg.png"
+import Blog1 from "../assets/images/Blog_1.svg"
+import Blog2 from "../assets/images/Blog_2.svg"
+import Blog3 from "../assets/images/Blog_3.svg"
+import Blog4 from "../assets/images/Blog_4.svg"
+import Blog5 from "../assets/images/Blog_5.svg"
+import Blog6 from "../assets/images/Blog_6.svg"
+import Blog7 from "../assets/images/Blog_7.svg"
+import Blog8 from "../assets/images/Blog_8.svg"
 
 export const cardData = [
   {
@@ -198,3 +206,45 @@ export const users = [
     img: ProfileImg,
   },
 ];
+export const blogsdata=[ 
+  {
+    img:Blog1,
+    date:"12 May 2025",
+    discription:"How Small Daily Habits Create Big Fitness Transformations"
+  },
+  {
+    img:Blog2,
+    date:"12 May 2025",
+    discription:"PCOD, Stress & Hormonal Balance: A Simple Guide for Women"
+  },
+  {
+    img:Blog3,
+    date:"12 May 2025",
+    discription:"The Truth About Sustainable Weight Loss: What Really Works"
+  },
+  {
+    img:Blog4,
+    date:"12 May 2025",
+    discription:"Why Personalized Coaching Beats Generic Diet Plans Every Time"
+  },
+  {
+    img:Blog5,
+    date:"12 May 2025",
+    discription:"How Small Daily Habits Create Big Fitness Transformations"
+  },
+  {
+    img:Blog6,
+    date:"12 May 2025",
+    discription:"The Truth About Sustainable Weight Loss: What Really Works"
+  },
+  {
+    img:Blog7,
+    date:"12 May 2025",
+    discription:"PCOD, Stress & Hormonal Balance: A Simple Guide for Women"
+  },
+  {
+    img:Blog8,
+    date:"12 May 2025",
+    discription:"Why Personalized Coaching Beats Generic Diet Plans Every Time"
+  }
+]
