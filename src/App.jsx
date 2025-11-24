@@ -13,7 +13,7 @@ function App() {
     <>
       <div className=" relative flex flex-col min-h-screen">
         <header >
-          <Header />
+          {/* <Header /> */}
         </header>
         <main className="grow">
           <Routes>
@@ -25,7 +25,7 @@ function App() {
           </Routes>
         </main>
         <footer>
-          <Footer/>
+          {/* <Footer/> */}
         </footer>
       </div>
     </>
