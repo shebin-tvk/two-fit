@@ -1,9 +1,9 @@
 import React from 'react'
 import Logo from "../../assets/images/navbarLogo.svg"
-import YoutubeIcon from "../../assets/images/youtubeIcon.svg"
-import FacebookIcon from "../../assets/images/facebookIcon.svg"
-import instagramIcon from "../../assets/images/InstagramIcon.svg"
-import LinkedInIcon from "../../assets/images/linkedinIcon.svg"
+import YoutubeIcon from "../../assets/Icons/youtubeIcon.svg"
+import FacebookIcon from "../../assets/Icons/facebookIcon.svg";
+import instagramIcon from "../../assets/Icons/InstagramIcon.svg";
+import LinkedInIcon from "../../assets/Icons/linkedinIcon.svg";
 
 const Footer = () => {
   return (

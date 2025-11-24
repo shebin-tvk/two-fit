@@ -1,5 +1,5 @@
 import React from 'react'
-import arrowDown from "../../assets/images/VectorDown.svg"
+import arrowDown from "../../assets/Icons/VectorDown.svg";
 
 const Faq = () => {
   return (

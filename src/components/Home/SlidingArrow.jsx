@@ -1,6 +1,6 @@
 import React from 'react'
-import arrowLeft from "../../assets/images/VectorLeft.svg";
-import arrowRight from "../../assets/images/VectorRight.svg";
+import arrowLeft from "../../assets/Icons/VectorLeft.svg";
+import arrowRight from "../../assets/Icons/VectorRight.svg";
 
 const SlidingArrow = () => {
   return (
