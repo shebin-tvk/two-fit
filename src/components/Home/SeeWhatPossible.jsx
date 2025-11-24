@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from './Heading';
+import Heading from '../shared/Heading';
 import PossibleCard from './PossibleCard';
 import { possible } from "../../utils/constants"
 import SlidingArrow from './SlidingArrow';

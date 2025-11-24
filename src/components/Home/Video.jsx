@@ -15,7 +15,7 @@ const Video = () => {
         <source src={VideoBg} type="video/mp4" />
       </video>
 
-      <div className="absolute bottom-25 z-1 flex flex-col items-center md:items-start justify-center mx-[250px] gap-[50px]">
+      <div className="absolute bottom-20 z-1 flex flex-col items-center md:items-start justify-center mx-[150px] gap-[45px]">
         <div className="flex flex-col items-center md:items-start justify-center gap-5">
           <h1 className="text-white text-[100px] font-bold tracking-[-4%] leading-none">
             Your Journey <br /> to a Healthier You

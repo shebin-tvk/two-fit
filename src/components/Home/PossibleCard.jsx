@@ -4,7 +4,7 @@ import { motion as Motion } from "framer-motion";
 
 const PossibleCard = ({cardData}) => {
   return (
-    <div className="overflow-y-scroll scrollbar-hide pl-[250px]">
+    <div className="overflow-y-scroll scrollbar-hide pl-[150px]">
       <Motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}

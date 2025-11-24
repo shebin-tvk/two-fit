@@ -6,7 +6,7 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <div className="absolute top-4 z-10 w-full">
-      <div className="flex items-center justify-between mx-[250px] p-3 bg-white rounded-full ">
+      <div className="flex items-center justify-between mx-[150px] p-3 bg-white rounded-full ">
         <img src={Logo} alt="Logo" className="w-35 h-8" />
         <div className="flex items-center justify-between space-x-5">
           <span

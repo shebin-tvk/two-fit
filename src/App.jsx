@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import AllPrograms from "./pages/AllPrograms";
 import OurStory from "./pages/OurStory";
 import Blog from "./pages/Blog";
-import ContactUs from "./pages/ContactUs";
+import Contact from "./pages/Contact";
 import Header from "./components/shared/Header";
 import Footer from "./components/shared/Footer";
 
@@ -21,7 +21,7 @@ function App() {
             <Route path="/programs" element={<AllPrograms />} />
             <Route path="/ourstory" element={<OurStory />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <footer>

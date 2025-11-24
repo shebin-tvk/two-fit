@@ -3,7 +3,7 @@ import arrowDown from "../../assets/images/VectorDown.svg"
 
 const Faq = () => {
   return (
-    <div className="w-full px-[250px] py-15 bg-[#0A4F48]">
+    <div className="w-full px-[150px] py-15 bg-[#0A4F48]">
       <div className="flex justify-between items-start gap-40 w-full">
         <div className="flex flex-col justify-between items-start gap-10">
           <div className="flex flex-col items-start gap-4 text-white">

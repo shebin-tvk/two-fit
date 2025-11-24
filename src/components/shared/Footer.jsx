@@ -7,7 +7,7 @@ import LinkedInIcon from "../../assets/images/linkedinIcon.svg"
 
 const Footer = () => {
   return (
-    <div className="w-full px-[250px] bg-[#f1ece8] py-15">
+    <div className="w-full px-[150px] bg-[#f1ece8] py-15">
       <div className="flex flex-col justify-between items-center gap-13 w-full">
         <div className="flex justify-between items-center w-full">
           <div className="w-1/2">

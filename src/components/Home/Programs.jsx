@@ -1,7 +1,7 @@
 import React from 'react'
 import ProgramCard from './ProgramCard';
 import { cardData } from '../../utils/constants';
-import Heading from './Heading';
+import Heading from '../shared/Heading';
 
 
 

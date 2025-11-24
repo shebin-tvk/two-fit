@@ -1,7 +1,10 @@
 import React from 'react'
-import Heading from './Heading'
+import Heading from '../shared/Heading'
 import MemberCard from './MemberCard';
 import { users } from '../../utils/constants';
+// import { cardData } from '../../utils/constants';
+
+import ProgramCard from './ProgramCard';
 
 const JoinTheMovement = () => {
   return (
@@ -11,9 +14,9 @@ const JoinTheMovement = () => {
         description={"Stronger, healthier lives together."}
       />
       <div className="w-full">
-        <div className="flex items-center gap-4 overflow-y-scroll scrollbar-hide w-full">
-            <MemberCard cardData={users}/>
-        </div>
+          <MemberCard cardData={users} />
+          {/* <ProgramCard cardData={cardData}/> */}
+
       </div>
     </div>
   );
