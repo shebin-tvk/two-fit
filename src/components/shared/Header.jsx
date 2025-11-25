@@ -64,65 +64,73 @@ const Header = () => {
         ></div>
       )}
       <div
-        className={`fixed top-15 left-0 h-full w-full bg-white shadow-lg transform transition-transform duration-300 z-50
+        className={`fixed top-0 left-0 h-full w-full bg-white shadow-lg transform transition-transform duration-300 z-50
         ${open ? "translate-x-0" : "-translate-x-full"}`}
       >
         <div className="flex flex-col items-center justify-between gap-25">
-          <div className="px-2 py-7 flex flex-col items-start justify-between w-full">
-            <div className="flex justify-start border-b border-b-gray-300 w-full py-4">
-              <p
-                className="font-semibold text-[16px] tracking-[-2%]"
-                onClick={() => {
-                  navigate("/");
-                  setOpen(false);
-                }}
-              >
-                Home
-              </p>
+          <div className="flex flex-col items-start gap-5 w-full">
+            <div className="flex items-center justify-between p-2 w-full">
+              <img src={Logo} alt="Logo" className="w-35 h-8" />
+              <button onClick={() => setOpen(!open)}>
+                <img src={closingMenu} alt="" />
+              </button>
             </div>
-            <div className="flex justify-start border-b border-b-gray-300 w-full py-4">
-              <p
-                className="font-semibold text-[16px] tracking-[-2%]"
-                onClick={() => {
-                  navigate("/programs");
-                  setOpen(false);
-                }}
-              >
-                All Programs
-              </p>
-            </div>
-            <div className="flex justify-start border-b border-b-gray-300 w-full py-4">
-              <p
-                className="font-semibold text-[16px] tracking-[-2%]"
-                onClick={() => {
-                  navigate("/ourstory");
-                  setOpen(false);
-                }}
-              >
-                Our Story
-              </p>
-            </div>
-            <div className="flex justify-start border-b border-b-gray-300 w-full py-4">
-              <p
-                className="font-semibold text-[16px] tracking-[-2%]"
-                onClick={() => {
-                  navigate("/blog");
-                  setOpen(false);
-                }}
-              >
-                Blog
-              </p>
-            </div>
-            <div className="flex justify-start border-b border-b-gray-300 w-full py-4">
-              <p
-                className="font-semibold text-[16px] tracking-[-2%]"
-                onClick={() => {
-                  navigate("/contact");
-                  setOpen(false);
-                }}
-              >
-                Contact Us
-              </p>
+            <div className="px-2 py-7 flex flex-col items-start justify-between w-full">
+              <div className="flex justify-start border-b border-b-gray-300 w-full py-4">
+                <p
+                  className="font-semibold text-[16px] tracking-[-2%]"
+                  onClick={() => {
+                    navigate("/");
+                    setOpen(false);
+                  }}
+                >
+                  Home
+                </p>
+              </div>
+              <div className="flex justify-start border-b border-b-gray-300 w-full py-4">
+                <p
+                  className="font-semibold text-[16px] tracking-[-2%]"
+                  onClick={() => {
+                    navigate("/programs");
+                    setOpen(false);
+                  }}
+                >
+                  All Programs
+                </p>
+              </div>
+              <div className="flex justify-start border-b border-b-gray-300 w-full py-4">
+                <p
+                  className="font-semibold text-[16px] tracking-[-2%]"
+                  onClick={() => {
+                    navigate("/ourstory");
+                    setOpen(false);
+                  }}
+                >
+                  Our Story
+                </p>
+              </div>
+              <div className="flex justify-start border-b border-b-gray-300 w-full py-4">
+                <p
+                  className="font-semibold text-[16px] tracking-[-2%]"
+                  onClick={() => {
+                    navigate("/blog");
+                    setOpen(false);
+                  }}
+                >
+                  Blog
+                </p>
+              </div>
+              <div className="flex justify-start border-b border-b-gray-300 w-full py-4">
+                <p
+                  className="font-semibold text-[16px] tracking-[-2%]"
+                  onClick={() => {
+                    navigate("/contact");
+                    setOpen(false);
+                  }}
+                >
+                  Contact Us
+                </p>
+              </div>
             </div>
           </div>
           <button className="py-4 px-16 bg-[#0a4f48] rounded-full text-white text-4 font-semibold">
