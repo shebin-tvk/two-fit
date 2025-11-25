@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from '../shared/Heading'
-import imamge from '../../assets/images/OurStory_main.svg'
+import image from '../../assets/images/OurStory_main.svg'
 
 
 export default function WhereOurJourneyBegan() {
@@ -15,7 +15,7 @@ export default function WhereOurJourneyBegan() {
                     } />
                 </div>
                 <div>
-                    <img className='rounded-2xl' src={imamge} alt="" />
+                    <img className='rounded-2xl' src={image} alt="" />
                 </div>
                 <div className='flex flex-col md:flex-row md:gap-27 gap-4 w-full'>
                     <div className='w-full md:w-1/2'>

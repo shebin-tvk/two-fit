@@ -270,48 +270,407 @@ export const blogsdata=[
     id:1,
     img:Blog1,
     date:"12 May 2025",
-    discription:"How Small Daily Habits Create Big Fitness Transformations"
+    heading:"How Small Daily Habits Create Big Fitness Transformations",
+    discription:"Sometimes the biggest fitness changes don’t come from drastic diets or intense workouts—they come from small habits repeated every day. If you’ve ever wondered why some people stay consistent and see steady progress, the answer is simple: they build routines that are easy, doable, and sustainable.",
+    details:[
+      {
+        heading:"Small habits reduce overwhelm",
+        discription:"Trying to overhaul your entire lifestyle in one shot usually leads to burnout. But drinking an extra glass of water, taking a 10-minute walk, or adding one healthy meal each day feels manageable. These small wins build momentum."
+      },
+      {
+        heading:"Consistency beats intensity",
+        discription:"You don’t need a perfect routine—just a consistent one. A short daily workout done for 30 days creates more progress than a complicated plan followed for 3 days and abandoned."
+      },
+      {
+        heading:" Tiny habits shape your identity",
+        discription:"When you start choosing healthier actions, your mind shifts.",
+        dis_point:[
+          {
+            point:"A 10-minute workout becomes: “I’m someone who moves daily.”"
+          },
+          {
+            point:"A healthier breakfast becomes: “I fuel my body right.”"
+          },
+          {
+            point:"Identity change leads to long-term transformation"
+          }
+        ]
+      },
+      {
+        heading:"Habits compound like interest",
+        discription:"Just like saving small amounts of money grows over time, healthy habits stack up:",
+        dis_point:[
+          {
+            point:""
+          }
+        ]
+      },
+      {
+        heading:"Progress becomes effortless",
+        discription:"Once habits become automatic, staying fit stops feeling like a struggle",
+        dis_point:[
+          {
+            point:"Your body and brain start working with you, not against you"
+          },
+        ]
+      }
+    ]
   },
   {
     id:2,
     img:Blog2,
     date:"12 May 2025",
-    discription:"PCOD, Stress & Hormonal Balance: A Simple Guide for Women"
+    heading:"PCOD, Stress & Hormonal Balance: A Simple Guide for Women",
+    discription:"Sometimes the biggest fitness changes don’t come from drastic diets or intense workouts—they come from small habits repeated every day. If you’ve ever wondered why some people stay consistent and see steady progress, the answer is simple: they build routines that are easy, doable, and sustainable.",
+    details:[
+      {
+        heading:"Small habits reduce overwhelm",
+        discription:"Trying to overhaul your entire lifestyle in one shot usually leads to burnout. But drinking an extra glass of water, taking a 10-minute walk, or adding one healthy meal each day feels manageable. These small wins build momentum."
+      },
+      {
+        heading:"Consistency beats intensity",
+        discription:"You don’t need a perfect routine—just a consistent one. A short daily workout done for 30 days creates more progress than a complicated plan followed for 3 days and abandoned."
+      },
+      {
+        heading:" Tiny habits shape your identity",
+        discription:"When you start choosing healthier actions, your mind shifts.",
+        dis_point:[
+          {
+            point:"A 10-minute workout becomes: “I’m someone who moves daily.”"
+          },
+          {
+            point:"A healthier breakfast becomes: “I fuel my body right.”"
+          },
+          {
+            point:"Identity change leads to long-term transformation"
+          }
+        ]
+      },
+      {
+        heading:"Habits compound like interest",
+        discription:"Just like saving small amounts of money grows over time, healthy habits stack up:",
+        dis_point:[
+          {
+            point:""
+          }
+        ]
+      },
+      {
+        heading:"Progress becomes effortless",
+        discription:"Once habits become automatic, staying fit stops feeling like a struggle",
+        dis_point:[
+          {
+            point:"Your body and brain start working with you, not against you"
+          },
+        ]
+      }
+    ]
+
   },
   {
     id:3,
     img:Blog3,
     date:"12 May 2025",
-    discription:"The Truth About Sustainable Weight Loss: What Really Works"
+    heading:"The Truth About Sustainable Weight Loss: What Really Works",
+    discription:"Sometimes the biggest fitness changes don’t come from drastic diets or intense workouts—they come from small habits repeated every day. If you’ve ever wondered why some people stay consistent and see steady progress, the answer is simple: they build routines that are easy, doable, and sustainable.",
+    details:[
+      {
+        heading:"Small habits reduce overwhelm",
+        discription:"Trying to overhaul your entire lifestyle in one shot usually leads to burnout. But drinking an extra glass of water, taking a 10-minute walk, or adding one healthy meal each day feels manageable. These small wins build momentum."
+      },
+      {
+        heading:"Consistency beats intensity",
+        discription:"You don’t need a perfect routine—just a consistent one. A short daily workout done for 30 days creates more progress than a complicated plan followed for 3 days and abandoned."
+      },
+      {
+        heading:" Tiny habits shape your identity",
+        discription:"When you start choosing healthier actions, your mind shifts.",
+        dis_point:[
+          {
+            point:"A 10-minute workout becomes: “I’m someone who moves daily.”"
+          },
+          {
+            point:"A healthier breakfast becomes: “I fuel my body right.”"
+          },
+          {
+            point:"Identity change leads to long-term transformation"
+          }
+        ]
+      },
+      {
+        heading:"Habits compound like interest",
+        discription:"Just like saving small amounts of money grows over time, healthy habits stack up:",
+        dis_point:[
+          {
+            point:""
+          }
+        ]
+      },
+      {
+        heading:"Progress becomes effortless",
+        discription:"Once habits become automatic, staying fit stops feeling like a struggle",
+        dis_point:[
+          {
+            point:"Your body and brain start working with you, not against you"
+          },
+        ]
+      }
+    ]
+
   },
   {
     id:4,
     img:Blog4,
     date:"12 May 2025",
-    discription:"Why Personalized Coaching Beats Generic Diet Plans Every Time"
+    heading:"Why Personalized Coaching Beats Generic Diet Plans Every Time",
+    discription:"Sometimes the biggest fitness changes don’t come from drastic diets or intense workouts—they come from small habits repeated every day. If you’ve ever wondered why some people stay consistent and see steady progress, the answer is simple: they build routines that are easy, doable, and sustainable.",
+    details:[
+      {
+        heading:"Small habits reduce overwhelm",
+        discription:"Trying to overhaul your entire lifestyle in one shot usually leads to burnout. But drinking an extra glass of water, taking a 10-minute walk, or adding one healthy meal each day feels manageable. These small wins build momentum."
+      },
+      {
+        heading:"Consistency beats intensity",
+        discription:"You don’t need a perfect routine—just a consistent one. A short daily workout done for 30 days creates more progress than a complicated plan followed for 3 days and abandoned."
+      },
+      {
+        heading:" Tiny habits shape your identity",
+        discription:"When you start choosing healthier actions, your mind shifts.",
+        dis_point:[
+          {
+            point:"A 10-minute workout becomes: “I’m someone who moves daily.”"
+          },
+          {
+            point:"A healthier breakfast becomes: “I fuel my body right.”"
+          },
+          {
+            point:"Identity change leads to long-term transformation"
+          }
+        ]
+      },
+      {
+        heading:"Habits compound like interest",
+        discription:"Just like saving small amounts of money grows over time, healthy habits stack up:",
+        dis_point:[
+          {
+            point:""
+          }
+        ]
+      },
+      {
+        heading:"Progress becomes effortless",
+        discription:"Once habits become automatic, staying fit stops feeling like a struggle",
+        dis_point:[
+          {
+            point:"Your body and brain start working with you, not against you"
+          },
+        ]
+      }
+    ]
+
   },
   {
     id:5,
     img:Blog5,
     date:"12 May 2025",
-    discription:"How Small Daily Habits Create Big Fitness Transformations"
+    heading:"How Small Daily Habits Create Big Fitness Transformations",
+    discription:"Sometimes the biggest fitness changes don’t come from drastic diets or intense workouts—they come from small habits repeated every day. If you’ve ever wondered why some people stay consistent and see steady progress, the answer is simple: they build routines that are easy, doable, and sustainable.",
+    details:[
+      {
+        heading:"Small habits reduce overwhelm",
+        discription:"Trying to overhaul your entire lifestyle in one shot usually leads to burnout. But drinking an extra glass of water, taking a 10-minute walk, or adding one healthy meal each day feels manageable. These small wins build momentum."
+      },
+      {
+        heading:"Consistency beats intensity",
+        discription:"You don’t need a perfect routine—just a consistent one. A short daily workout done for 30 days creates more progress than a complicated plan followed for 3 days and abandoned."
+      },
+      {
+        heading:" Tiny habits shape your identity",
+        discription:"When you start choosing healthier actions, your mind shifts.",
+        dis_point:[
+          {
+            point:"A 10-minute workout becomes: “I’m someone who moves daily.”"
+          },
+          {
+            point:"A healthier breakfast becomes: “I fuel my body right.”"
+          },
+          {
+            point:"Identity change leads to long-term transformation"
+          }
+        ]
+      },
+      {
+        heading:"Habits compound like interest",
+        discription:"Just like saving small amounts of money grows over time, healthy habits stack up:",
+        dis_point:[
+          {
+            point:""
+          }
+        ]
+      },
+      {
+        heading:"Progress becomes effortless",
+        discription:"Once habits become automatic, staying fit stops feeling like a struggle",
+        dis_point:[
+          {
+            point:"Your body and brain start working with you, not against you"
+          },
+        ]
+      }
+    ]
+
   },
   {
     id:6,
     img:Blog6,
     date:"12 May 2025",
-    discription:"The Truth About Sustainable Weight Loss: What Really Works"
+    heading:"The Truth About Sustainable Weight Loss: What Really Works",
+    discription:"Sometimes the biggest fitness changes don’t come from drastic diets or intense workouts—they come from small habits repeated every day. If you’ve ever wondered why some people stay consistent and see steady progress, the answer is simple: they build routines that are easy, doable, and sustainable.",
+    details:[
+      {
+        heading:"Small habits reduce overwhelm",
+        discription:"Trying to overhaul your entire lifestyle in one shot usually leads to burnout. But drinking an extra glass of water, taking a 10-minute walk, or adding one healthy meal each day feels manageable. These small wins build momentum."
+      },
+      {
+        heading:"Consistency beats intensity",
+        discription:"You don’t need a perfect routine—just a consistent one. A short daily workout done for 30 days creates more progress than a complicated plan followed for 3 days and abandoned."
+      },
+      {
+        heading:" Tiny habits shape your identity",
+        discription:"When you start choosing healthier actions, your mind shifts.",
+        dis_point:[
+          {
+            point:"A 10-minute workout becomes: “I’m someone who moves daily.”"
+          },
+          {
+            point:"A healthier breakfast becomes: “I fuel my body right.”"
+          },
+          {
+            point:"Identity change leads to long-term transformation"
+          }
+        ]
+      },
+      {
+        heading:"Habits compound like interest",
+        discription:"Just like saving small amounts of money grows over time, healthy habits stack up:",
+        dis_point:[
+          {
+            point:""
+          }
+        ]
+      },
+      {
+        heading:"Progress becomes effortless",
+        discription:"Once habits become automatic, staying fit stops feeling like a struggle",
+        dis_point:[
+          {
+            point:"Your body and brain start working with you, not against you"
+          },
+        ]
+      }
+    ]
+
   },
   {
     id:7,
     img:Blog7,
     date:"12 May 2025",
-    discription:"PCOD, Stress & Hormonal Balance: A Simple Guide for Women"
+    heading:"PCOD, Stress & Hormonal Balance: A Simple Guide for Women",
+    discription:"Sometimes the biggest fitness changes don’t come from drastic diets or intense workouts—they come from small habits repeated every day. If you’ve ever wondered why some people stay consistent and see steady progress, the answer is simple: they build routines that are easy, doable, and sustainable.",
+    details:[
+      {
+        heading:"Small habits reduce overwhelm",
+        discription:"Trying to overhaul your entire lifestyle in one shot usually leads to burnout. But drinking an extra glass of water, taking a 10-minute walk, or adding one healthy meal each day feels manageable. These small wins build momentum."
+      },
+      {
+        heading:"Consistency beats intensity",
+        discription:"You don’t need a perfect routine—just a consistent one. A short daily workout done for 30 days creates more progress than a complicated plan followed for 3 days and abandoned."
+      },
+      {
+        heading:" Tiny habits shape your identity",
+        discription:"When you start choosing healthier actions, your mind shifts.",
+        dis_point:[
+          {
+            point:"A 10-minute workout becomes: “I’m someone who moves daily.”"
+          },
+          {
+            point:"A healthier breakfast becomes: “I fuel my body right.”"
+          },
+          {
+            point:"Identity change leads to long-term transformation"
+          }
+        ]
+      },
+      {
+        heading:"Habits compound like interest",
+        discription:"Just like saving small amounts of money grows over time, healthy habits stack up:",
+        dis_point:[
+          {
+            point:""
+          }
+        ]
+      },
+      {
+        heading:"Progress becomes effortless",
+        discription:"Once habits become automatic, staying fit stops feeling like a struggle",
+        dis_point:[
+          {
+            point:"Your body and brain start working with you, not against you"
+          },
+        ]
+      }
+    ]
+
   },
   {
     id:8,
     img:Blog8,
     date:"12 May 2025",
-    discription:"Why Personalized Coaching Beats Generic Diet Plans Every Time"
+    heading:"Why Personalized Coaching Beats Generic Diet Plans Every Time",
+    discription:"Sometimes the biggest fitness changes don’t come from drastic diets or intense workouts—they come from small habits repeated every day. If you’ve ever wondered why some people stay consistent and see steady progress, the answer is simple: they build routines that are easy, doable, and sustainable.",
+    details:[
+      {
+        heading:"Small habits reduce overwhelm",
+        discription:"Trying to overhaul your entire lifestyle in one shot usually leads to burnout. But drinking an extra glass of water, taking a 10-minute walk, or adding one healthy meal each day feels manageable. These small wins build momentum."
+      },
+      {
+        heading:"Consistency beats intensity",
+        discription:"You don’t need a perfect routine—just a consistent one. A short daily workout done for 30 days creates more progress than a complicated plan followed for 3 days and abandoned."
+      },
+      {
+        heading:" Tiny habits shape your identity",
+        discription:"When you start choosing healthier actions, your mind shifts.",
+        dis_point:[
+          {
+            point:"A 10-minute workout becomes: “I’m someone who moves daily.”"
+          },
+          {
+            point:"A healthier breakfast becomes: “I fuel my body right.”"
+          },
+          {
+            point:"Identity change leads to long-term transformation"
+          }
+        ]
+      },
+      {
+        heading:"Habits compound like interest",
+        discription:"Just like saving small amounts of money grows over time, healthy habits stack up:",
+        dis_point:[
+          {
+            point:""
+          }
+        ]
+      },
+      {
+        heading:"Progress becomes effortless",
+        discription:"Once habits become automatic, staying fit stops feeling like a struggle",
+        dis_point:[
+          {
+            point:"Your body and brain start working with you, not against you"
+          },
+        ]
+      }
+    ]
+
   }
 ]
