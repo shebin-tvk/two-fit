@@ -236,41 +236,49 @@ export const users = [
 ];
 export const blogsdata=[ 
   {
+    id:1,
     img:Blog1,
     date:"12 May 2025",
     discription:"How Small Daily Habits Create Big Fitness Transformations"
   },
   {
+    id:2,
     img:Blog2,
     date:"12 May 2025",
     discription:"PCOD, Stress & Hormonal Balance: A Simple Guide for Women"
   },
   {
+    id:3,
     img:Blog3,
     date:"12 May 2025",
     discription:"The Truth About Sustainable Weight Loss: What Really Works"
   },
   {
+    id:4,
     img:Blog4,
     date:"12 May 2025",
     discription:"Why Personalized Coaching Beats Generic Diet Plans Every Time"
   },
   {
+    id:5,
     img:Blog5,
     date:"12 May 2025",
     discription:"How Small Daily Habits Create Big Fitness Transformations"
   },
   {
+    id:6,
     img:Blog6,
     date:"12 May 2025",
     discription:"The Truth About Sustainable Weight Loss: What Really Works"
   },
   {
+    id:7,
     img:Blog7,
     date:"12 May 2025",
     discription:"PCOD, Stress & Hormonal Balance: A Simple Guide for Women"
   },
   {
+    id:8,
     img:Blog8,
     date:"12 May 2025",
     discription:"Why Personalized Coaching Beats Generic Diet Plans Every Time"
