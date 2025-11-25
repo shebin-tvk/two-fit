@@ -11,6 +11,17 @@ import DesignCard8 from "../assets/images/rectangle10.svg";
 import DesignCard9 from "../assets/images/rectangle11.svg";
 import DesignCard10 from "../assets/images/rectangle12.svg";
 
+import DesignCardbig1 from "../assets/images/Rectangle1.jpg"
+import DesignCardbig2 from "../assets/images/Rectangle2.jpg"
+import DesignCardbig3 from "../assets/images/Rectangle3.jpg"
+import DesignCardbig4 from "../assets/images/Rectangle4.jpg";
+import DesignCardbig5 from "../assets/images/rectangle7.jpg";
+import DesignCardbig6 from "../assets/images/rectangle8.jpg";
+import DesignCardbig7 from "../assets/images/rectangle9.jpg";
+import DesignCardbig8 from "../assets/images/rectangle10.jpg";
+import DesignCardbig9 from "../assets/images/rectangle11.jpg";
+import DesignCardbig10 from "../assets/images/rectangle12.jpg";
+
 import possibleCard1 from "../assets/images/Rectangle5.svg"
 import possibleCard2 from "../assets/images/Rectangle6.svg"
 import ProfileImg from "../assets/images/profileImg.png"
@@ -90,43 +101,63 @@ export const cardData = [
 
 export const designData = [
   {
+    id:1,
     img: DesignCard1,
+    bigimg: DesignCardbig1,
     heading: "Weight Loss",
   },
   {
+    id:2,
     img: DesignCard2,
+     bigimg: DesignCardbig2,
     heading: "Weight Gain",
   },
   {
+    id:3,
     img: DesignCard3,
+     bigimg: DesignCardbig3,
     heading: "PCOD Support",
   },
   {
+    id:4,
     img: DesignCard4,
+     bigimg: DesignCardbig4,
     heading: "Postpartum Care",
   },
   {
+    id:5,
     img: DesignCard5,
+     bigimg: DesignCardbig5,
     heading: "Thyroid Managment",
   },
   {
+    id:6,
     img: DesignCard6,
+     bigimg: DesignCardbig6,
     heading: "Diabetes Care",
   },
    {
+    id:7,
     img: DesignCard7,
+     bigimg: DesignCardbig7,
     heading: "Mindset&Habit Reset",
   },
    {
+    id:8,
     img: DesignCard8,
+     bigimg: DesignCardbig8,
     heading: "Cholesterol Control",
   },
    {
+    id:9,
     img: DesignCard9,
+     bigimg: DesignCardbig9,
     heading: "Fatty Liver Support",
   },
    {
+    id:10,
     img: DesignCard10,
+     bigimg: DesignCardbig10,
     heading: "Body Tonning(Level 2)",
   },
   
