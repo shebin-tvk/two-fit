@@ -11,17 +11,17 @@ const Home = () => {
    <div>
     <Video/>
     <Programs/>
-<<<<<<< HEAD
-    <DesignedForYou/>
-    <SeeWhatPossible/>
-    <Faq/>
-    <JoinTheMovement/>
-=======
-    {/* <DesignedForYou/> */}
-    {/* <SeeWhatPossible/> */}
-    {/* <Faq/> */}
-    {/* <JoinTheMovement/> */}
->>>>>>> 29d419e3e19b64ea173b064cb45350d6f5128acf
+{/* <<<<<<< HEAD */}
+    // <DesignedForYou/>
+    // <SeeWhatPossible/>
+    // <Faq/>
+    // <JoinTheMovement/>
+// =======
+    // {/* <DesignedForYou/> */}
+    // {/* <SeeWhatPossible/> */}
+    // {/* <Faq/> */}
+    // {/* <JoinTheMovement/> */}
+{/* >>>>>>> 29d419e3e19b64ea173b064cb45350d6f5128acf */}
    </div>
 
   )
