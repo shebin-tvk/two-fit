@@ -11,7 +11,7 @@ const Home = () => {
    <div>
     <Video/>
     <Programs/>
-<<<<<<< HEAD
+{/* <<<<<<< HEAD
     <DesignedForYou/>
     <SeeWhatPossible/>
     <Faq/>
@@ -21,7 +21,7 @@ const Home = () => {
     {/* <SeeWhatPossible/> */}
     {/* <Faq/> */}
     {/* <JoinTheMovement/> */}
->>>>>>> 29d419e3e19b64ea173b064cb45350d6f5128acf
+>>>>>>> 29d419e3e19b64ea173b064cb45350d6f5128acf */}
    </div>
 
   )
