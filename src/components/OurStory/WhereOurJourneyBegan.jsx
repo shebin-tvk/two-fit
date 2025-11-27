@@ -6,7 +6,7 @@ import image from '../../assets/images/OurStory_main.svg'
 export default function WhereOurJourneyBegan() {
     return (
         <div className='my-30 mx-4 md:mx-20 lg:mx-38 justify-center'>
-            <div className='flex flex-col gap-18 mb-30 justify-center content-center'>
+            <div className='flex flex-col gap-1 md:gap-18 mb-30 justify-center content-center'>
                 <div>
                     <Heading heading={
                         <>
@@ -21,7 +21,7 @@ export default function WhereOurJourneyBegan() {
                     <div className='w-full md:w-1/2'>
                         <div className='flex flex-col md:w-auto gap-4'>
                             <p className='text-[#0A4F48] font-semibold'>Our Story</p>
-                            <p className='w-full text-3xl md:text-5xl font-bold'>The Birth Of Twofit</p>
+                            <p className='w-full text-2xl md:text-5xl font-bold'>The Birth Of Twofit</p>
                         </div>
                     </div>
                     <div className='w-full flex flex-col gap-8 mt-0 md:mt-10'>

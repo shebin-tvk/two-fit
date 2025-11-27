@@ -16,7 +16,7 @@ export default function OurBlogs() {
             <div key={index} className='flex flex-col justify-center md:justify-between gap-3'>
                 <img src={blog.img} alt="" />
                 <p className='text-sm text-[#1E1E1E]'>{blog.date}</p>
-                <p className='text-sm font-bold text-[#1E1E1E]'>{blog.discription}</p>
+                <p className='text-sm font-bold text-[#1E1E1E]'>{blog.heading}</p>
                 <p onClick={()=>navigate(`/blog/${blog.id}`)} className='underline text-[#0A4F48] text-md cursor-pointer'>Read more</p>
 
             </div>

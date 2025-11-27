@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Header from "./components/shared/Header";
 import Footer from "./components/shared/Footer";
 import BlogDetails from "./pages/BlogDetails";
+import ProgramDetails from "./components/AllPrograms/ProgramDetails";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/programs" element={<AllPrograms />} />
+            <Route path="/programs/:id" element={<ProgramDetails />} /> 
             <Route path="/ourstory" element={<OurStory />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:bid" element={<BlogDetails/>}/>
