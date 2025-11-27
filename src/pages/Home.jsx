@@ -10,9 +10,6 @@ const Home = () => {
   return (
    <div>
     <Video/>
-<<<<<<< HEAD
-    {/* <Programs/> */}
-=======
     <Programs/>
 {/* <<<<<<< HEAD
 {/* <<<<<<< HEAD */}
@@ -33,13 +30,12 @@ const Home = () => {
     <Faq/>
     <JoinTheMovement/>
 =======
->>>>>>> d8357b536db8f030380b36a6dfe89599e995739c
     {/* <DesignedForYou/> */}
     {/* <SeeWhatPossible/> */}
     <Faq/>
     {/* <JoinTheMovement/> */}
->>>>>>> 29d419e3e19b64ea173b064cb45350d6f5128acf */}
->>>>>>> 3976ae4d0913122bc46982fad5dae5929b9b7c34 */}
+{/* >>>>>>> 29d419e3e19b64ea173b064cb45350d6f5128acf */}
+{/* >>>>>>> 3976ae4d0913122bc46982fad5dae5929b9b7c34 */}
    </div>
 
   )
