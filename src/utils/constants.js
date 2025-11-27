@@ -284,3 +284,41 @@ export const blogsdata=[
     discription:"Why Personalized Coaching Beats Generic Diet Plans Every Time"
   }
 ]
+
+export const FAQs = [
+  {
+    question: "What is weight loss management?",
+    answer:
+      "Twofit offers comprehensive weight loss management programs with personalized diet and workout plans to help you achieve your goals safely and effectively.",
+  },
+  {
+    question: "Which is the best online weight loss program?",
+    answer:
+      "Twofit offers comprehensive weight loss management programs with personalized diet and workout plans to help you achieve your goals safely and effectively.",
+  },
+  {
+    question: "Do I need supplements for weight loss?",
+    answer:
+      "Twofit offers comprehensive weight loss management programs with personalized diet and workout plans to help you achieve your goals safely and effectively.",
+  },
+  {
+    question: "Do I need supplements for weight loss?",
+    answer:
+      "Twofit offers comprehensive weight loss management programs with personalized diet and workout plans to help you achieve your goals safely and effectively.",
+  },
+  {
+    question: "What are common diabetes symptoms and how can TwoFit help?",
+    answer:
+      "Twofit offers comprehensive weight loss management programs with personalized diet and workout plans to help you achieve your goals safely and effectively.",
+  },
+  {
+    question: "Do you offer personalized diabetic diets?",
+    answer:
+      "Twofit offers comprehensive weight loss management programs with personalized diet and workout plans to help you achieve your goals safely and effectively.",
+  },
+  {
+    question: "Can I get a PCOD diet plan?",
+    answer:
+      "Twofit offers comprehensive weight loss management programs with personalized diet and workout plans to help you achieve your goals safely and effectively.",
+  },
+]; 

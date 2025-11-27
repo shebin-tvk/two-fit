@@ -10,10 +10,10 @@ const Home = () => {
   return (
    <div>
     <Video/>
-    <Programs/>
+    {/* <Programs/> */}
     {/* <DesignedForYou/> */}
     {/* <SeeWhatPossible/> */}
-    {/* <Faq/> */}
+    <Faq/>
     {/* <JoinTheMovement/> */}
    </div>
 

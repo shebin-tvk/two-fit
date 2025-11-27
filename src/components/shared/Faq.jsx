@@ -1,7 +1,10 @@
-import React from 'react'
-import arrowDown from "../../assets/Icons/VectorDown.svg";
+import React, { useState } from 'react'
+import FaqCard from './FaqCard';
+import { FAQs } from '../../utils/constants';
 
 const Faq = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
   return (
     <div className="w-full px-4 md:px-[150px] py-15 bg-[#0A4F48]">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-10 md:gap-40 w-full">
@@ -22,62 +25,16 @@ const Faq = () => {
         </div>
 
         <div className="flex flex-col justify-between items-start gap-6 w-full text-white">
-          <div className="pb-5 border-b border-b-gray-500 w-full">
-            <div className="flex justify-between items-center w-full">
-              <p className="text-[20px] font-semibold tracking-[-4%]">
-                What is weight loss management?
-              </p>
-              <img src={arrowDown} alt="arrow down" />
-            </div>
-          </div>
-          <div className="pb-5 border-b border-b-gray-500 w-full">
-            <div className="flex justify-between items-center w-full">
-              <p className="text-[20px] font-semibold tracking-[-4%]">
-                Which is the best online weight loss program?
-              </p>
-              <img src={arrowDown} alt="arrow down" />
-            </div>
-          </div>
-          <div className="pb-5 border-b border-b-gray-500 w-full">
-            <div className="flex justify-between items-center w-full">
-              <p className="text-[20px] font-semibold tracking-[-4%]">
-                Do I need supplements for weight loss?
-              </p>
-              <img src={arrowDown} alt="arrow down" />
-            </div>
-          </div>
-          <div className="pb-5 border-b border-b-gray-500 w-full">
-            <div className="flex justify-between items-center w-full">
-              <p className="text-[20px] font-semibold tracking-[-4%]">
-                How does TwoFit support postpartum depression?
-              </p>
-              <img src={arrowDown} alt="arrow down" />
-            </div>
-          </div>
-          <div className="pb-5 border-b border-b-gray-500 w-full">
-            <div className="flex justify-between items-center w-full">
-              <p className="text-[20px] font-semibold tracking-[-4%]">
-                What are common diabetes symptoms and how can TwoFit help?
-              </p>
-              <img src={arrowDown} alt="arrow down" />
-            </div>
-          </div>
-          <div className="pb-5 border-b border-b-gray-500 w-full">
-            <div className="flex justify-between items-center w-full">
-              <p className="text-[20px] font-semibold tracking-[-4%]">
-                Do you offer personalized diabetic diets?
-              </p>
-              <img src={arrowDown} alt="arrow down" />
-            </div>
-          </div>
-          <div className="pb-5 border-b border-b-gray-500 w-full">
-            <div className="flex justify-between items-center w-full">
-              <p className="text-[20px] font-semibold tracking-[-4%]">
-                Can I get a PCOD diet plan?
-              </p>
-              <img src={arrowDown} alt="arrow down" />
-            </div>
-          </div>
+          {FAQs.map((item, i) => (
+            <FaqCard
+              key={i}
+              index={i}
+              question={item.question}
+              answer={item.answer}
+              activeIndex={activeIndex}
+              setActiveIndex={setActiveIndex}
+            />
+          ))}
         </div>
       </div>
     </div>
