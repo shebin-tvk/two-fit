@@ -32,10 +32,10 @@ const Home = () => {
 =======
     {/* <DesignedForYou/> */}
     {/* <SeeWhatPossible/> */}
-    {/* <Faq/> */}
+    <Faq/>
     {/* <JoinTheMovement/> */}
->>>>>>> 29d419e3e19b64ea173b064cb45350d6f5128acf */}
->>>>>>> 3976ae4d0913122bc46982fad5dae5929b9b7c34 */}
+{/* >>>>>>> 29d419e3e19b64ea173b064cb45350d6f5128acf */}
+{/* >>>>>>> 3976ae4d0913122bc46982fad5dae5929b9b7c34 */}
    </div>
 
   )

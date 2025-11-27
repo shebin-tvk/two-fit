@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
           <div className="flex items-start justify-between gap-10">
             <div className="flex flex-col items-start gap-4">
-              <h2 className="text-[16px] font-semibold text-[#0A4F48]">
+              <h2 className="text-[18px] font-semibold text-[#0A4F48]">
                 Services
               </h2>
               <ul className="flex flex-col items-start gap-2 text-[12px]">
@@ -95,7 +95,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col items-start gap-4">
-              <h2 className="text-[16px] font-semibold text-[#0A4F48]">
+              <h2 className="text-[18px] font-semibold text-[#0A4F48]">
                 Company
               </h2>
               <ul className="flex flex-col items-start gap-2 text-[12px]">
@@ -111,7 +111,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col items-start gap-4">
-              <h2 className="text-[16px] font-semibold text-[#0A4F48]">
+              <h2 className="text-[18px] font-semibold text-[#0A4F48]">
                 Others
               </h2>
               <ul className="flex flex-col items-start gap-2 text-[12px]">

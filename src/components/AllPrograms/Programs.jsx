@@ -53,14 +53,10 @@ const Programs = () => {
           </motion.div>
         ))}
       </div>
-      <div>
-        {/* <Faq/> */}
-      </div>
-      <div>
-        {/* <SeeWhatPossible/> */}
-      </div>
+      <div>{/* <Faq/> */}</div>
+      <div>{/* <SeeWhatPossible/> */}</div>
     </div>
-  )
+  );
 }
 
-export default Programs
+export default Programs;
